@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: #000000;
+    background-color: #255096;
     font-family: "Lato", sans-serif;
     color: #ffffff;
     font-size: 1.6rem;
@@ -17,10 +17,6 @@ body {
 
 #page-header {
     height: 100vh;
-    /* background-image: url(../img/header-portrait-mobile.jpg); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     position: relative;
 }
 
@@ -228,34 +224,21 @@ body {
 
 #about-me {
     height: 100vh;
-    /* background-image: url(../img/about-me-mobile.jpg); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     position: relative;
 }
 
 #portfolio {
     height: 100vh;
-    /* background-image: url(../img/portfolio-mobile.jpg); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     position: relative;
 }
 
 #ability {
     height: 100vh;
-    /* background-image: url(../img/ability-mobile.jpg); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     position: relative;
 }
 
 #contact {
-    height: 50vh;
-    background-color:  rgba(2, 1, 1, 0.6);
+    height: 100vh;
     position: relative;
 }
 
