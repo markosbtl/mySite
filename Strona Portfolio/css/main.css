@@ -17,6 +17,9 @@ body {
 
 #page-header {
     height: 100vh;
+    background-image: url(../img/layout-page-header-mobile.png);
+    background-repeat: repeat;
+    background-position: center;
     position: relative;
 }
 
@@ -226,6 +229,8 @@ body {
     height: 100vh;
     position: relative;
 }
+
+
 
 #portfolio {
     height: 100vh;

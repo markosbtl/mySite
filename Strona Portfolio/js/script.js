@@ -38,7 +38,7 @@ $(".page-logo").click(function (event) {
     }, 1500);
 });
 
-// When you open hamburger menu and pick some item, you go to this part of site smoothly.
+// // When you open hamburger menu and pick some item, you go to this part of site smoothly.
 
 $(document).ready(function () {
     $(".goToPageHeader").click(function () {
