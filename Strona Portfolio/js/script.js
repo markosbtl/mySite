@@ -18,10 +18,6 @@ function menuChanger(e) {
     e.stopPropagation();
 };
 
-// when menu is open and we click on list item, then close menu.
-// let menuListElement = querySelectorAll()
-
-
 // When menu is open and we click on logo, then close menu and change classList on hamburger,
 // and you go to page header smoothly.
 

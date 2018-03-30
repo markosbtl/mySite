@@ -214,13 +214,26 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-family: 'Bangers', cursive;
-    font-size: 9rem;
-    letter-spacing: 3px;
+    font-family: 'Monoton', cursive;
+    font-weight: normal;
+    font-size: 5rem;
     text-align: center;
-    text-shadow:0 5px 0 #255096,
-              0 7px 0 #749ee2,
-              0 7px 4px #255096;
+    animation: neon 1.5s ease-in-out infinite alternate;
+}
+
+
+@keyframes neon {
+  from {
+    text-shadow: 0 0 8px white, 0 0 10px rgba(255, 255, 255, 0.5), 0 0 15px rgba(255, 255, 255, 0.25), 0 0 20px #255096, 0 0 35px #255096, 0 0 40px #255096, 0 0 50px #255096, 0 0 75px #255096, 0 0 85px black;
+  }
+  to {
+    text-shadow: 0 0 8px white, 0 0 15px rgba(255, 255, 255, 0.75), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px #255096, 0 0 45px #255096, 0 0 50px #255096, 0 0 60px #255096, 0 0 85px #255096, 0 0 95px black;
+  }
+}
+
+
+.front-title-midle {
+    font-size: 7rem;
 }
 
 /* Page section */
